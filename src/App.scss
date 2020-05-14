@@ -1,0 +1,247 @@
+$darkColor: #001F3F;
+$highlightColor: #FFD717;
+$hoverColor: #0068D2;
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+@font-face{
+  font-family: "GReg";
+  src: url(./fonts/GothamPro-Reg.woff2);
+}
+
+@font-face{
+  font-family: "GLig";
+  src: url(./fonts/GothamPro-Light.woff2);
+}
+
+@font-face{
+  font-family: "GBold";
+  src: url(./fonts/GothamPro-Bold.woff2);
+}
+
+@font-face{
+  font-family: "GBlack";
+  src: url(./fonts/GothamPro-Black.woff2);
+}
+
+@font-face{
+  font-family: "GMed";
+  src: url(./fonts/GothamPro-Medium.woff2);
+}
+
+.header{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.header__inner{
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__item{
+  display: flex;
+  align-items: center;
+}
+
+.header__logo{
+  font-family: GBold;
+  font-size: 20px;
+  color: $darkColor;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header__link{
+  font-family: GReg;
+  font-size: 14px;
+  color: $darkColor;
+  text-decoration: none;
+  margin: 0px 20px;
+  transition: all .3s ease;
+
+  &:hover{
+    color: $hoverColor;
+  }
+}
+
+.header__btn{
+  font-family: GReg;
+  font-size: 14px;
+  color: $darkColor;
+  text-decoration: none;
+  border: 1px $darkColor solid;
+  padding: 8px 18px;
+  margin: 0px 20px;
+  transition: all .3s ease;
+
+  &:hover{
+    color: $hoverColor;
+    border-color: $hoverColor;
+  }
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 150px;
+}
+
+.main__inner{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main__title{
+  font-family: GBold;
+  font-size: 50px;
+  color: $darkColor;
+  margin-bottom: 30px;
+}
+
+.highlighter{
+  color: $highlightColor;
+}
+
+.main__form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main__input_container{
+  margin-left: 31px;
+}
+
+.main__input{
+  font-family: Greg;
+  font-size: 16px;
+  color: $darkColor;
+  padding: 9px 50px 9px 17px;
+  border-radius: 100px;
+  outline: none;
+  border: 1px $darkColor solid;
+  width: 500px;
+}
+
+.main__input_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__input_img{
+  position: relative;
+  left: -45px;
+  cursor: pointer;
+}
+
+.main__status{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.main__display{
+  width: 490px;
+  height: 11px;
+  border-radius: 100px;
+  background-color: #E1E1E1;
+}
+
+.main__display_status{
+  width: 0px;
+  height: 11px;
+  border-radius: 100px;
+  position: relative;
+  background-color: $highlightColor;
+  transition: all .5s ease;
+}
+
+.main__status_text{
+  font-family: GReg;
+  font-size: 14px;
+  color: $darkColor;
+  margin-top: 5px;
+}
+
+.main__title_container{
+  text-align: center;
+}
+
+.aboutus{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.aboutus__title{
+  font-family: GBold;
+  font-size: 40px;
+  margin-bottom: 0px;
+  color: $darkColor;
+}
+
+.aboutus__inner{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.aboutus__subtitle{
+  font-family: GReg;
+  font-size: 15px;
+  color: $darkColor;
+}
+
+@media (max-width: 1020px){
+  .main__title{
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 650px){
+  .main__title{
+    font-size: 20px;
+  }
+
+  .main__input{
+    width: 320px;
+  }
+
+  .main__display{
+    width: 350px;
+  }
+}
+
+@media (max-width: 425px){
+  .main__input{
+    width: 240px;
+  }
+
+  .main__display{
+    width: 250px;
+  }
+
+  .header__item{
+    flex-direction: column;
+  }
+
+  .header__link,
+  .header__btn{
+    margin: 5px 0px;
+  }
+}
