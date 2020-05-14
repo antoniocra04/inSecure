@@ -14,7 +14,7 @@ export default class Header extends Component {
                         </div>
                         <div className="header__item">
                             <Link to='/aboutus' className="header__link">About Us</Link>
-                            <a href="https://github.com/antoniocra04/inSecure" className="header__btn">Source code</a>    
+                            <a href="https://github.com/antoniocra04/inSecure" target='blank' className="header__btn">Source code</a>    
                         </div>    
                     </div>                
                 </div>
