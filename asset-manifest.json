@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/inSecure/static/css/main.a26b5ff8.chunk.css",
+    "main.js": "/inSecure/static/js/main.a100f5fc.chunk.js",
+    "main.js.map": "/inSecure/static/js/main.a100f5fc.chunk.js.map",
+    "runtime-main.js": "/inSecure/static/js/runtime-main.335b8d5b.js",
+    "runtime-main.js.map": "/inSecure/static/js/runtime-main.335b8d5b.js.map",
+    "static/js/2.7fb801a5.chunk.js": "/inSecure/static/js/2.7fb801a5.chunk.js",
+    "static/js/2.7fb801a5.chunk.js.map": "/inSecure/static/js/2.7fb801a5.chunk.js.map",
+    "index.html": "/inSecure/index.html",
+    "precache-manifest.f7afe307973a302c9fb59b96ed6dd812.js": "/inSecure/precache-manifest.f7afe307973a302c9fb59b96ed6dd812.js",
+    "service-worker.js": "/inSecure/service-worker.js",
+    "static/css/main.a26b5ff8.chunk.css.map": "/inSecure/static/css/main.a26b5ff8.chunk.css.map",
+    "static/js/2.7fb801a5.chunk.js.LICENSE.txt": "/inSecure/static/js/2.7fb801a5.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/inSecure/static/media/GothamPro-Reg.f02e0f6b.woff2",
+    "static/media/logo.svg": "/inSecure/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.335b8d5b.js",
+    "static/js/2.7fb801a5.chunk.js",
+    "static/css/main.a26b5ff8.chunk.css",
+    "static/js/main.a100f5fc.chunk.js"
+  ]
+}
